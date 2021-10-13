@@ -1,3 +1,10 @@
+/**
+This file defines all of our global theme variables. These will be built in to
+our atomic stylesheet and made available throughout the system.
+
+https://vanilla-extract.style/documentation/styling-api/
+*/
+
 import {createGlobalTheme} from '@vanilla-extract/css'
 
 export const vars = createGlobalTheme(':root', {

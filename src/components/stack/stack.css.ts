@@ -1,5 +1,11 @@
 import {recipe} from '@vanilla-extract/recipes'
-import {sprinkles} from '../../sprinkles.css'
+
+/**
+Here we're using the Recipes API to create the variant styling for a 
+simple Stack component. More things to play with here, very much WIP.
+
+https://vanilla-extract.style/documentation/recipes-api/
+ */
 
 export const stack = recipe({
   base: {

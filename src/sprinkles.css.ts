@@ -1,3 +1,14 @@
+/**
+This file generates our atomic styles at build time. We specify all the CSS
+properties we want to have and the available values for each one. We use our
+theme variables to customize the output according to a given design.
+
+https://vanilla-extract.style/documentation/sprinkles-api/
+
+To get a better understanding, run `npm run build` and check out the generated
+CSS file in the /dist directory. 
+*/
+
 import {defineProperties, createSprinkles} from '@vanilla-extract/sprinkles'
 import {vars} from './vars.css'
 
